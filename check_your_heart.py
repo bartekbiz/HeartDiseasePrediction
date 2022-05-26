@@ -139,13 +139,6 @@ dict_data = {'HeartDisease': 'No', 'BMI': BMI, 'Smoking': Smoking, 'AlcoholDrink
              'GenHealth': GenHealth, 'SleepTime': SleepTime, 'Asthma': Asthma, 'KidneyDisease': KidneyDisease,
              'SkinCancer': SkinCancer}
 
-
-dict_test = {'HeartDisease': 'No', 'BMI': 39.53, 'Smoking': 'Yes', 'AlcoholDrinking': 'Yes', 'Stroke': 'Yes',
-             'PhysicalHealth': 19, 'MentalHealth': 5, 'DiffWalking': 'Yes', 'Sex': 'Male', 'AgeCategory': '75-79',
-             'Race': 'White', 'Diabetic': 'Yes', 'PhysicalActivity': 'Yes', 'GenHealth': 'Poor', 'SleepTime': 1,
-             'Asthma': 'Yes', 'KidneyDisease': 'Yes', 'SkinCancer': 'Yes'}
-
-
 print('\nPreparing your prediction...')
 
 import heart as h
